@@ -1,2 +1,1 @@
-# expense-tracker-pwa-typescript
- Expense-Tracker-React-App-TypeScript-PWA-Push-Notificaions
+# Expense Tracker | React-App using TypeScript | PWA | Push-Notificaions
