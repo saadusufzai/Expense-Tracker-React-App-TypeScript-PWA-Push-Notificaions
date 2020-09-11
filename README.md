@@ -1,5 +1,10 @@
 # Expense Tracker | React-App using TypeScript | PWA | Push-Notificaions
+    Expense tracker ask for your income and expences and measure your monthly or yearly expence/income. 
 
+ 
+This expense tracker is a React base web app developed using typescript. 
+This is a progressive web app and has the capability to be insstalled on a desktop andd be used as a desktop app or Android, IOS, Windows or Samsung store.
+ 
 
 # PWA (Progressive Web App)
 This is a PWA means you can install it on your desktop and use it as a desktop applicaion. It got ofline support and if you want you can convert this app to a
