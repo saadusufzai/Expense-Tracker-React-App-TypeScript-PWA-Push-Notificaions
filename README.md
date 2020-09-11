@@ -12,7 +12,7 @@ Android App, Apple App and Windows App
 
 
 # surge link 
-SURGE LINK: http://quiz-app-pwa-by-saad.surge.sh/
+Will update soon
 
     Surge link will not work as The FCM (Firebase Cloud Messaging) SDK is supported only in pages served over HTTPS. This is due to its use of service workers, which are available only on HTTPS sites.
 
@@ -20,11 +20,11 @@ SURGE LINK: http://quiz-app-pwa-by-saad.surge.sh/
 
 
 # Netlify Link
-https://pwa-quiz-app-by-saad.netlify.app/
+Will update soon
 
 # Firebase Hosted App Link
-https://quiz-app-push-notificati-10d11.firebaseapp.com/
 
+Will update soon
 
 # Android App, Apple App and Windows App
 To make an Android App, Apple App or a Windows App I am serving my quiz app to Netlify ( to get benifit of HTTPS ) as it is essential for a PWA to be served on HTTPS rather then HTTP
@@ -36,7 +36,6 @@ I am using PWA builder to build Android App, Apple App and Windows App
 # Made using 
 React
 Typescript
-opentdb QUIZ API
 Cloud Messaging
 Firebase Hosting
 Netlify
