@@ -9,6 +9,7 @@ import './App.css';
 import Balance from './Components/Balance';
 import IncomeExpenses from './Components/IncomeExpenses';
 import TransactionList from './Components/TransactionList';
+import AddTransaction from './Components/AddTransaction';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Balance/>
       <IncomeExpenses/>
       <TransactionList/>
+      <AddTransaction/>
    </div>
   );
 }
