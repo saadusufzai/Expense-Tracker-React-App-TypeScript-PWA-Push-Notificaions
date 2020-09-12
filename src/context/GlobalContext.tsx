@@ -6,7 +6,7 @@ type Props = {
 };
 
 type Context = {
-    transactions:[];
+    transactions:any[];
     addTransaction:React.Dispatch<React.SetStateAction<any>>;
     deleteTransaction:React.Dispatch<React.SetStateAction<any>>;
 }

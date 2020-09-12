@@ -1,6 +1,6 @@
 import React from 'react';
 import  Header  from './Components/Header';
-
+import {AppContext} from './context/GlobalContext'
 
 
 
@@ -12,14 +12,17 @@ import TransactionList from './Components/TransactionList';
 import AddTransaction from './Components/AddTransaction';
 
 function App() {
+  
   return (
-   <div>
+   <>
+   <AppContext  >
       <Header />
       <Balance/>
       <IncomeExpenses/>
       <TransactionList/>
       <AddTransaction/>
-   </div>
+      </AppContext>
+   </>
   );
 }
 
