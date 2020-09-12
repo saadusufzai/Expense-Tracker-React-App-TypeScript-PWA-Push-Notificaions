@@ -8,6 +8,7 @@ import  Header  from './Components/Header';
 import './App.css';
 import Balance from './Components/Balance';
 import IncomeExpenses from './Components/IncomeExpenses';
+import TransactionList from './Components/TransactionList';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Balance/>
       <IncomeExpenses/>
+      <TransactionList/>
    </div>
   );
 }
