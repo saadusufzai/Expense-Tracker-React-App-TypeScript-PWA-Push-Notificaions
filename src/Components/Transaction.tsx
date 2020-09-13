@@ -1,8 +1,15 @@
 import React,{useContext} from 'react'
 import { AppContext } from '../context/GlobalContext';
+import {Transactions} from '../types/types'
 
-const Transaction = ({transaction}:any) => {
+type Props = {
+  key?:number,
+  transaction:Transactions
+}
+
+const Transaction:React.FC<Props> = ({transaction}) =>  {
   
+
   const  {deleteTransaction}  = useContext(AppContext);
    
  const sign = transaction.amount < 0 ? '-' : '+';
