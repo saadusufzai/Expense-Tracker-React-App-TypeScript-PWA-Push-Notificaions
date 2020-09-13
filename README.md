@@ -19,7 +19,7 @@ Will update soon
     This is the reason I am using netlify and firebase hosting. you can use one of them.
 
 
-# Netlify Link
+### Netlify Link
 Will update soon
 
 # Firebase Hosted App Link
