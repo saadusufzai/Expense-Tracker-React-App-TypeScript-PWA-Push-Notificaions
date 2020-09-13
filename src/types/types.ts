@@ -2,7 +2,7 @@ export type Props = {
     children: React.ReactNode;
   };
   export type Transactions = {
-    ammount:number;
+    amount:number;
     id:number;
     text:string
   }
