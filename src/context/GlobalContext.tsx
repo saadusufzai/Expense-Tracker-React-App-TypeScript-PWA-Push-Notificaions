@@ -1,15 +1,8 @@
 import React, { createContext,useReducer } from 'react'
 import Reducer from './Reducer'
+import {Context, Props} from '../types/types'
 
-type Props = {
-  children: React.ReactNode;
-};
 
-type Context = {
-    transactions:any[];
-    addTransaction:React.Dispatch<React.SetStateAction<any>>;
-    deleteTransaction:React.Dispatch<React.SetStateAction<any>>;
-}
 const initialState:Context = {
     transactions:[],
     addTransaction: (): void => {

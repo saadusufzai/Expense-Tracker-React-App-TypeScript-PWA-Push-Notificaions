@@ -1,6 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { AppContext } from '../context/GlobalContext'
 
-const Balance = () => {
+const Balance:React.FC = () => {
+
+  const {transactions} = useContext(AppContext)
+  console.log(transactions)
+
   return (
     <div>
       <h4>Your Balance</h4>
