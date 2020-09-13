@@ -3,7 +3,7 @@ import { AppContext } from '../context/GlobalContext';
 import { Transactions} from '../types/types'
 
 const AddTransaction = () => {
-  const [text, setText]  = useState<string>();
+  const [text, setText]  = useState<string>('');
   const [amount, setAmount] = useState<any>('');
   const {addTransaction} = useContext(AppContext)
 
@@ -12,7 +12,7 @@ const AddTransaction = () => {
     
     const newTransaction:Transactions = {
       id: Math.floor(Math.random() * 100000000),
-      text:'',
+      text:text,
       amount: +amount
     }
 
@@ -32,8 +32,8 @@ const AddTransaction = () => {
         <div className="form-control">
           <label htmlFor="amount"
             >Amount <br />
-            (negative = expense, positive = income)</label
-          >
+            (negative = expense, positive = income)
+            </label>
           <input required type="number" value={amount} onChange={(e:React.ChangeEvent<HTMLInputElement>) => setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>
         <button type='submit' className="btn">Add transaction</button>

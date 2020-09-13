@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import Transaction from './Transaction'
 
-import {Transactions} from '../types/types'
+
 import { AppContext } from '../context/GlobalContext';
 
 
