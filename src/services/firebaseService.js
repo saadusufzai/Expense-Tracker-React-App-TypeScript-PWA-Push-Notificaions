@@ -1,4 +1,5 @@
 import firebase from 'firebase'
+import 'firebase/messaging';
 
 const firebaseConfig = {
     apiKey: "AIzaSyAq-fr4tEh3nB1IMufWDJC2AjUT_jXdig0",
@@ -16,7 +17,7 @@ const firebaseConfig = {
   const messaging = firebase.messaging();
 
   // Add the public key generated from the console here.
-  messaging.usePublicVapidKey("BFN0dNPehp22ZpbBSW7qWHEaVw2COPWxr4BErccnjQVUY6zRTnFL3dRN2J9HJIol-vZ-KbZOPhFlcDx0NipHL2c");
+  messaging.usePublicVapidKey("BFN0dNPehp22ZpbBSW7qWHEaVw2COPWxr4BErccnjQVUY6zRTnFL3dRN2J9HJIol-vZ-KbZOPhFlcDx0NipHL2cY");
 
 export const configureNotification = ()=>{
     Notification.requestPermission().then((permission)=>{
