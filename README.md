@@ -51,7 +51,7 @@ Visual Studio Code
 Netlify 
 
 
-## Open Source
+# Open Source
 This is an open source project. Feel free to make changes or add new features and build this app in your style.
 
 ## Android APK
